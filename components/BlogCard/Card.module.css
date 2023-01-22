@@ -1,0 +1,98 @@
+.image img {
+    border-radius: 20px;
+    height: 250px;
+    transform: translateY(-60px);
+    width: 500px;
+    background: #fff;
+}
+
+.fav {
+    transform: translateY(-40px);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    background: #fff;
+}
+
+.card_blog {
+    display: flex;
+    gap: 30px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+    height: 300px;
+    position: relative;
+    transition: 0.3s;
+
+    /* -webkit-box-shadow: 1px 5px 53px -2px rgba(58, 66, 73, 0.2);
+    -moz-box-shadow: 1px 5px 53px -2px rgba(58, 66, 73, 0.2);
+    box-shadow: 1px 5px 53px -2px rgba(58, 66, 73, 0.2); */
+}
+
+.card_blog:hover {
+    -webkit-box-shadow: 1px 5px 100px -2px rgba(0, 144, 255, 0.2);
+    -moz-box-shadow: 1px 5px 100px -2px rgba(0, 144, 255, 0.2);
+    box-shadow: -4px 5px 10px 0px rgba(0, 144, 255, 0.2);
+}
+
+.read_button {
+    background: #4268dd;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+
+.image img {
+    -webkit-box-shadow: -4px 4px 8px 0px rgba(2, 85, 148, 0.2);
+  -moz-box-shadow: -4px 4px 8px 0px rgba(2, 85, 148, 0.2);
+  box-shadow: -4px 4px 8px 0px rgba(2, 85, 148, 0.2);
+}
+
+@media (max-width: 1000px) {
+    .card_blog {
+        display: block;
+        height: 700px;
+    }
+    .text {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        height: 50%;
+    }
+    .read_button {
+        position: unset;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 770px) {
+    .card_blog {
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .card_blog {
+        height: 650px;
+    }
+}
