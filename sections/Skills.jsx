@@ -35,7 +35,7 @@ const Skills = () => {
                         <h1 className='font-bold md:text-2xl'>React JS</h1>
                     </div>
                     <div class="lg:w-[270px] bg-gray-200 rounded-full dark:bg-gray-700">
-                        <div class="bg-primary-blue text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[40%]" >40%</div>
+                        <div class="bg-primary-blue text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >60%</div>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ const Skills = () => {
                         <h1 className='font-bold md:text-2xl'>Java Script</h1>
                     </div>
                     <div class="lg:w-[270px] bg-gray-200 rounded-full dark:bg-gray-700">
-                        <div class="bg-primary-blue text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >60%</div>
+                        <div class="bg-primary-blue text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]" >75%</div>
                     </div>
                 </div>
 

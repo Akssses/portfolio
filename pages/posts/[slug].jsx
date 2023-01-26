@@ -45,6 +45,7 @@ export async function getStaticProps({params}){
      const data = await graphcms.request(QUERY, {slug})
      const post = data.post
      return {
+        
         props: {
             post,
         },

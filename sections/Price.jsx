@@ -1,5 +1,6 @@
 import {BsFillCheckCircleFill, BsPlusCircleFill} from 'react-icons/bs'
 import {AiFillMinusCircle} from 'react-icons/ai'
+import {TiDelete, TiDeleteOutline} from 'react-icons/ti'
 import Button from '../components/Button'
 import React from 'react'
 
@@ -80,6 +81,7 @@ const Price = () => {
         }
     }
 
+
     return (
         <>
             <h1 className='mt-[100px] text-4xl text-center font-bold'>Services</h1>
@@ -94,6 +96,7 @@ const Price = () => {
                         <h1 className='flex items-center gap-5 text-xl mb-2'><BsFillCheckCircleFill className="text-green-500" size={20}/>Анимации</h1>
                         <h1 className='flex items-center gap-5 text-xl mb-2'><BsFillCheckCircleFill className="text-green-500" size={20}/>Сложная верстка</h1>
                         <h1 className='flex items-center gap-5 text-xl mb-2'><BsFillCheckCircleFill className="text-green-500" size={20}/>Форма обратной связи</h1>
+                        <h1 className='flex items-center gap-5 text-xl mb-2'><TiDelete className="text-red-500 -translate-x-1" size={30}/>Платежная система</h1>
                     </div>
                     <h1 className='text-6xl font-bold text-center text-primary-blue dark:text-white mt-7'>${lp}</h1>
                     <div className='mt-5 flex gap-10 justify-center items-center'>
@@ -166,7 +169,9 @@ const Price = () => {
                         <Button className="bg-primary-blue dark:bg-white dark:text-primary-blue text-white px-6 mt-5">Связаться</Button>
                     </div>
                 </div>
+                
             </section>
+            <h1>Цена указана за</h1>
         </>
     )
 }
